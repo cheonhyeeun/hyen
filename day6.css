@@ -1,0 +1,67 @@
+body {
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.header .main_menu {
+  display: flex;
+  gap: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.main_copy {
+  padding: 170px;
+  font-size: 76px;
+  line-height: 67px;
+}
+
+.business_info {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.business_info .bi_right {
+  display: flex;
+  gap: 87px;
+}
+
+.main_img {
+  margin-top: 16px;
+  background-image: url("L1151917 2.jpg");
+  background-size: cover;
+  height: 1000px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.main_img .img_copy {
+  color: #fff;
+  font-size: 18px;
+  width: 510px;
+}/*# sourceMappingURL=day6.css.map */

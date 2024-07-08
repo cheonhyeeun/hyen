@@ -1,0 +1,65 @@
+body {
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  background-color: #FDFBF7;
+}
+.header .cate_menu {
+  display: flex;
+  gap: 20px;
+  font-weight: 700;
+  width: 400px;
+}
+.header .my_menu {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  font-weight: 700;
+  width: 400px;
+}
+
+.pr_items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pr_items .pr_item {
+  width: 50%;
+  position: relative;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+.pr_items .pr_item:nth-child(2n) {
+  border-right: none;
+}
+.pr_items .pr_item .pr_img {
+  font-size: 0px;
+}
+.pr_items .pr_item .pr_img img {
+  width: 100%;
+}
+.pr_items .pr_item .pr_info {
+  font-size: 16px;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}/*# sourceMappingURL=day7.css.map */

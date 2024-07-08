@@ -1,0 +1,70 @@
+body{
+    font-family:"Inter","Noto Sans KR", sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color:white;
+}
+ul,li{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    top: 12px;
+    .main_menu{
+        display: flex;
+        gap: 15px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.main{
+    .main_desc{
+        font-size:26px;
+        line-height:30px;
+        padding-top:196px;
+        padding-left:30px;
+    }
+    .project_items{
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        padding-left:30px;
+        padding-right:30px;
+        box-sizing: border-box;
+        .pr_item{
+            width: 33.3%;
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            &:hover{
+                .pr_img{
+                    transform: scale(1.1);
+                }
+            }
+        .pr_info{
+            position: absolute;
+            left: 0px;
+            top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            z-index: 999;
+        }
+        .pr_img{
+            transition-duration: 0.3s;
+            img{
+                width: 100%;
+            }
+        }
+        }
+    }
+}
